@@ -1,0 +1,54 @@
+{
+    "name": "ssd1306-i2c-js",
+    "version": "1.0.0",
+    "description": "JS wrapper for oled display based on ssd1306 C driver",
+    "main": "./dist/index.js",
+    "typings": "./dist/index.d.ts",
+    "scripts": {
+        "prepublish": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "install": "node-gyp rebuild"
+    },
+    "author": {
+        "name": "Giuseppe Riolo",
+        "email": "riolo.giuseppe@gmail.com"
+    },
+    "directories": {
+        "example": "samples"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "displayName": "ssd1306-i2c-js",
+    "engineStrict": false,
+    "maintainers": [
+        {
+            "name": "Giuseppe Riolo",
+            "email": "riolo.giuseppe@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "gypfile": true,
+    "dependencies": {
+        "@types/node": "^9.3.0",
+        "bindings": "^1.3.0",
+        "nan": "^2.8.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RioloGiuseppe/ssd1306-i2c-js.git"
+    },
+    "keywords": [
+        "oled",
+        "oledjs",
+        "ssd1306",
+        "display",
+        "raspberry",
+        "orange-pi"
+    ],
+    "bugs": {
+        "url": "https://github.com/RioloGiuseppe/ssd1306-i2c-js/issues"
+    },
+    "homepage": "https://github.com/RioloGiuseppe/ssd1306-i2c-js#readme",
+    "readme": "https://github.com/RioloGiuseppe/ssd1306-i2c-js#readme"
+}
