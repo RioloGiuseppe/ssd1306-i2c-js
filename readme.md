@@ -45,7 +45,7 @@ display.setFont(Font.UbuntuMono_8ptFontInfo);
 ```
 Available fonts are defined in `Font` enum.
 
-**Drawing functions**
+**Drawing functions**<br>
 Following function are available.
 ```js
 display.drawPixel(x, y, color, layer);
@@ -55,7 +55,7 @@ display.fillRect(x, y, w, h, color, layer);
 display.drawString(x:number, y:number, text, size, color, layer);
 ```
 
-**Dispose i2c bus**
+**Dispose i2c bus**<br>
 To close i2c bus call `dispose` function.
 ```js
 process.on('SIGINT', function(){
