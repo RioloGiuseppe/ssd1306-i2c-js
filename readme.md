@@ -1,4 +1,4 @@
-# rf24js
+# ssd1306-i2c-js
 
 ![Support Node of LTS](https://img.shields.io/badge/node-LTS-brightgreen.svg?style=plastic) ![npm version](https://img.shields.io/badge/npm-3.5.0-brightgreen.svg?style=plastic) ![Build passing](https://img.shields.io/badge/build-passing_C++-brightgreen.svg?style=plastic) ![Build passing](https://img.shields.io/badge/build-passing%20Typescript-brightgreen.svg?style=plastic) ![Support](https://img.shields.io/badge/support-javascript%20|%20typescript-yellow.svg?style=plastic) ![dependencies nan](https://img.shields.io/badge/dependencies-NAN-blue.svg?style=plastic) ![License mit](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic) ![tested](https://img.shields.io/badge/tested%20on-Raspberry%20Pi%20|%20Orange%20Pi-orange.svg?style=plastic)
 
