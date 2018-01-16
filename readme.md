@@ -55,6 +55,12 @@ display.fillRect(x, y, w, h, color, layer);
 display.drawString(x:number, y:number, text, size, color, layer);
 ```
 
+**Refresh function**<br>
+Use the `refresh` method to update the display.
+```js
+display.refresh();
+```
+
 **Dispose i2c bus**<br>
 To close i2c bus call `dispose` function.
 ```js
