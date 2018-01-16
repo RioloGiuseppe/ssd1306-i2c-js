@@ -34,6 +34,7 @@ char buf[10];
 int com_serial;
 int failcount;
 int bus; //i2c bus descriptor
+int i2c_addr;
 FONT_INFO    *_font; 
 // oled buffer
 static uint8_t    buffer[SSD1306_LCDWIDTH * SSD1306_LCDHEIGHT / 8];
@@ -52,7 +53,7 @@ static uint8_t    buffer_ol[SSD1306_LCDWIDTH * SSD1306_LCDHEIGHT / 8];
 int i2c_init(char * bus, int addr)
 {
     int file;
-
+    i2c_addr = addr;
     if ((file = open(bus, O_RDWR)) < 0)
     {
         printf("Failed to open the bus.\n");
@@ -68,7 +69,6 @@ int i2c_init(char * bus, int addr)
             com_serial=0;
             exit(EXIT_FAILURE);
         }
-    printf("i2c_init OK. %d \n", file);
     return file;
 }
  
@@ -78,7 +78,7 @@ int i2c_init(char * bus, int addr)
  */
 void  ssd1306Init(uint8_t vccstate)
 {
-  _font = (FONT_INFO*)&ubuntuMono_24ptFontInfo;
+  _font = (FONT_INFO*)&ubuntuMono_8ptFontInfo;
   
     // Initialisation sequence
     ssd1306TurnOff();
@@ -175,7 +175,7 @@ void  ssd1306Command(  uint8_t comm  ) {
     }
     *ptr = 0x00;                               // first send "Control byte"
     *(ptr+1) = comm;                           // then send command
-    i2c_write((uint8_t)SSD1306_ADDRESS, (uint8_t *)ptr, 2);
+    i2c_write((uint8_t)i2c_addr, (uint8_t *)ptr, 2);
     free(ptr);
 }
 
@@ -197,7 +197,7 @@ void  ssd1306Data( uint8_t *data, int size  ) {
     ssd1306Command(SSD1306_SETLOWCOLUMN  | 0x0 );
     ssd1306Command(SSD1306_SETHIGHCOLUMN | 0x0 );
     ssd1306Command(SSD1306_SETSTARTLINE  | 0x0 );
-    i2c_write((uint8_t)SSD1306_ADDRESS, (uint8_t *)ptr, (size + 1));
+    i2c_write((uint8_t)i2c_addr, (uint8_t *)ptr, (size + 1));
     free(ptr);
 }
 

@@ -44,7 +44,7 @@ extern "C" {
 #define     SSD1306_LCDHEIGHT          	64
 
 
-#define SSD1306_ADDRESS                 0x3c
+//#define SSD1306_ADDRESS                 0x3c
 // Commands
 #define SSD1306_SETCONTRAST             0x81
 #define SSD1306_DISPLAYALLON_RESUME     0xA4
@@ -69,8 +69,7 @@ extern "C" {
 #define SSD1306_CHARGEPUMP              0x8D
 #define SSD1306_EXTERNALVCC             0x1
 #define SSD1306_SWITCHCAPVCC            0x2
-// macros
-#define SSD1306MSDELAY(c)               usleep ( c * 1000 );
+
 
 // Initialisation/Config Prototypes
 //inline void ssd1306SendByte(uint8_t byte);
@@ -104,11 +103,8 @@ void        ssd1306DrawString( int16_t, int16_t, int8_t * , uint8_t, uint16_t, u
 //void        ssd1306ShiftFrameBuffer( uint16_t height, uint16_t direction);
 void        ssd1306MixFrameBuffer(void);
 
-void i2c_write( uint8_t addr, 
-                uint8_t * value, 
-                int nbytes);
+void i2c_write( uint8_t addr, uint8_t * value, int nbytes);
 int i2c_init(char * bus, int addr);
-
 
 #ifdef __cplusplus
 }
