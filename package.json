@@ -1,6 +1,6 @@
 {
     "name": "ssd1306-i2c-js",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "JS wrapper for oled display based on ssd1306 C driver",
     "main": "./dist/index.js",
     "typings": "./dist/index.d.ts",
