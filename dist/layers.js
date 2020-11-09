@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Layer = void 0;
 var Layer;
 (function (Layer) {
     Layer[Layer["Layer0"] = 1] = "Layer0";

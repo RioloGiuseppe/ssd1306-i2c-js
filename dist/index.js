@@ -1,10 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.display = exports.Layer = exports.Color = exports.Font = void 0;
 var fonts_1 = require("./fonts");
-exports.Font = fonts_1.Font;
+Object.defineProperty(exports, "Font", { enumerable: true, get: function () { return fonts_1.Font; } });
 var colors_1 = require("./colors");
-exports.Color = colors_1.Color;
+Object.defineProperty(exports, "Color", { enumerable: true, get: function () { return colors_1.Color; } });
 var layers_1 = require("./layers");
-exports.Layer = layers_1.Layer;
+Object.defineProperty(exports, "Layer", { enumerable: true, get: function () { return layers_1.Layer; } });
 exports.display = require('bindings')('oledjs.node');
 //# sourceMappingURL=index.js.map

@@ -30,8 +30,8 @@ NAN_METHOD(InitModule)
 {
     if (info.Length() == 2)
     {
-        uint8_t ce = info[0]->Uint32Value();
-        uint8_t addr = info[1]->Uint32Value();
+        uint8_t ce = info[0]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        uint8_t addr = info[1]->Uint32Value(Nan::GetCurrentContext()).FromJust();
         uint8_t i2c[] = "/dev/i2c-1";
         i2c[9] = 48 + ce;
         bus = i2c_init((char *)i2c, addr);
@@ -71,7 +71,7 @@ NAN_METHOD(SetFont)
 {
     if (info.Length() == 1)
     {
-        int16_t fontName = info[0]->Uint32Value();
+        int16_t fontName = info[0]->Uint32Value(Nan::GetCurrentContext()).FromJust();
         switch (fontName)
         {
         case 0:
@@ -96,10 +96,10 @@ NAN_METHOD(DrawPixel)
 {
     if (info.Length() == 4)
     {
-        int16_t x = info[0]->Uint32Value();
-        int16_t y = info[1]->Uint32Value();
-        int16_t color = info[2]->Uint32Value();
-        int16_t layer = info[3]->Uint32Value();
+        int16_t x = info[0]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t y = info[1]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t color = info[2]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t layer = info[3]->Uint32Value(Nan::GetCurrentContext()).FromJust();
         ssd1306DrawPixel(x, y, color, layer);
     }
     else
@@ -110,12 +110,12 @@ NAN_METHOD(DrawLine)
 {
     if (info.Length() == 6)
     {
-        int16_t x0 = info[0]->Uint32Value();
-        int16_t y0 = info[1]->Uint32Value();
-        int16_t x1 = info[2]->Uint32Value();
-        int16_t y1 = info[3]->Uint32Value();
-        int16_t color = info[4]->Uint32Value();
-        int16_t layer = info[5]->Uint32Value();
+        int16_t x0 = info[0]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t y0 = info[1]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t x1 = info[2]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t y1 = info[3]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t color = info[4]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t layer = info[5]->Uint32Value(Nan::GetCurrentContext()).FromJust();
         ssd1306DrawLine(x0, y0, x1, y1, color, layer);
     }
     else
@@ -126,12 +126,12 @@ NAN_METHOD(FillRect)
 {
     if (info.Length() == 6)
     {
-        int16_t x = info[0]->Uint32Value();
-        int16_t y = info[1]->Uint32Value();
-        int16_t w = info[2]->Uint32Value();
-        int16_t h = info[3]->Uint32Value();
-        int16_t color = info[4]->Uint32Value();
-        int16_t layer = info[5]->Uint32Value();
+        int16_t x = info[0]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t y = info[1]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t w = info[2]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t h = info[3]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t color = info[4]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t layer = info[5]->Uint32Value(Nan::GetCurrentContext()).FromJust();
         ssd1306FillRect(x, y, w, h, color, layer);
     }
     else
@@ -142,12 +142,12 @@ NAN_METHOD(DrawRect)
 {
     if (info.Length() == 6)
     {
-        int16_t x = info[0]->Uint32Value();
-        int16_t y = info[1]->Uint32Value();
-        int16_t w = info[2]->Uint32Value();
-        int16_t h = info[3]->Uint32Value();
-        int16_t color = info[4]->Uint32Value();
-        int16_t layer = info[5]->Uint32Value();
+        int16_t x = info[0]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t y = info[1]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t w = info[2]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t h = info[3]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t color = info[4]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t layer = info[5]->Uint32Value(Nan::GetCurrentContext()).FromJust();
         ssd1306DrawRect(x, y, w, h, color, layer);
     }
     else
@@ -158,12 +158,12 @@ NAN_METHOD(DrawChar)
 {
     if (info.Length() == 6)
     {
-        int16_t x = info[0]->Uint32Value();
-        int16_t y = info[1]->Uint32Value();
-        uint8_t c = info[2]->Uint32Value();
-        uint8_t size = info[3]->Uint32Value();
-        int16_t color = info[4]->Uint32Value();
-        int16_t layer = info[5]->Uint32Value();
+        int16_t x = info[0]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t y = info[1]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        uint8_t c = info[2]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        uint8_t size = info[3]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t color = info[4]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t layer = info[5]->Uint32Value(Nan::GetCurrentContext()).FromJust();
         ssd1306DrawChar(x, y, c, size, color, layer);
     }
     else
@@ -174,16 +174,20 @@ NAN_METHOD(DrawString)
 {
     if (info.Length() == 6)
     {
-        int16_t x = info[0]->Uint32Value();
-        int16_t y = info[1]->Uint32Value();
+        int16_t x = info[0]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t y = info[1]->Uint32Value(Nan::GetCurrentContext()).FromJust();
         if (!info[2]->IsString())
         {
             return Nan::ThrowTypeError("Text is not a string!");
         }
-        String::Utf8Value str(info[2]->ToString());
-        uint8_t size = info[3]->Uint32Value();
-        int16_t color = info[4]->Uint32Value();
-        int16_t layer = info[5]->Uint32Value();
+        Nan::Utf8String str(info[2]);
+	int len = str.length();
+	if (len <= 0) {
+		return Nan::ThrowTypeError("Text must be a non-empty string.");
+	}
+        uint8_t size = info[3]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t color = info[4]->Uint32Value(Nan::GetCurrentContext()).FromJust();
+        int16_t layer = info[5]->Uint32Value(Nan::GetCurrentContext()).FromJust();
         ssd1306DrawString(x, y, (int8_t *)(*str), size, color, layer);
     }
     else

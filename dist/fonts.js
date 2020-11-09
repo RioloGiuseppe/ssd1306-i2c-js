@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Font = void 0;
 var Font;
 (function (Font) {
     Font[Font["UbuntuMono_8ptFontInfo"] = 0] = "UbuntuMono_8ptFontInfo";
