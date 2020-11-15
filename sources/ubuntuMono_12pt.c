@@ -1648,6 +1648,7 @@ const FONT_CHAR_INFO ubuntuMono_12ptDescriptors[] =
 	{8, 14, 1288}, 		// | 
 	{8, 14, 1302}, 		// } 
 	{8, 14, 1316}, 		// ~ 
+	{8, 14, 1330}, 		// ~ 
 };
 
 // Font information for Ubuntu Mono 12pt
