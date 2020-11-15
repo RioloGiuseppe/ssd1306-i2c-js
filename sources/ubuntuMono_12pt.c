@@ -1637,7 +1637,7 @@ const FONT_CHAR_INFO ubuntuMono_12ptDescriptors[] =
 // Font information for Ubuntu Mono 12pt
 const FONT_INFO ubuntuMono_12ptFontInfo =
 {
-	2, //  Character height
+	14, //  Character height
 	' ', //  Start character
 	'~', //  End character
 	ubuntuMono_12ptDescriptors, //  Character descriptor array
