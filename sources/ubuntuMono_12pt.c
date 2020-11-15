@@ -12,7 +12,7 @@
 // Character bitmaps for Ubuntu Mono 12pt
 const uint8_t ubuntuMono_12ptBitmaps[] = 
 {
-	// @0 '!' (8 pixels wide)
+	// @0 ' ' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -28,7 +28,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @0 '!' (8 pixels wide)
+	// @14 '!' (8 pixels wide)
 	0x00, //         
 	0x10, //    #    
 	0x10, //    #    
@@ -44,7 +44,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @14 '"' (8 pixels wide)
+	// @28 '"' (8 pixels wide)
 	0x28, //   # #   
 	0x28, //   # #   
 	0x28, //   # #   
@@ -60,7 +60,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @28 '#' (8 pixels wide)
+	// @42 '#' (8 pixels wide)
 	0x00, //         
 	0x24, //   #  #  
 	0x24, //   #  #  
@@ -76,7 +76,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @42 '$' (8 pixels wide)
+	// @56 '$' (8 pixels wide)
 	0x10, //    #    
 	0x10, //    #    
 	0x3C, //   ####  
@@ -92,7 +92,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x10, //    #    
 	0x00, //         
 
-	// @56 '%' (8 pixels wide)
+	// @70 '%' (8 pixels wide)
 	0x00, //         
 	0x62, //  ##   # 
 	0x94, // #  # #  
@@ -108,7 +108,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @70 '&' (8 pixels wide)
+	// @84 '&' (8 pixels wide)
 	0x00, //         
 	0x18, //    ##   
 	0x24, //   #  #  
@@ -124,7 +124,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @84 ''' (8 pixels wide)
+	// @98 ''' (8 pixels wide)
 	0x10, //    #    
 	0x10, //    #    
 	0x10, //    #    
@@ -140,7 +140,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @98 '(' (8 pixels wide)
+	// @112 '(' (8 pixels wide)
 	0x00, //         
 	0x04, //      #  
 	0x08, //     #   
@@ -156,7 +156,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x08, //     #   
 	0x04, //      #  
 
-	// @112 ')' (8 pixels wide)
+	// @126 ')' (8 pixels wide)
 	0x00, //         
 	0x20, //   #     
 	0x10, //    #    
@@ -172,7 +172,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x10, //    #    
 	0x20, //   #     
 
-	// @126 '*' (8 pixels wide)
+	// @140 '*' (8 pixels wide)
 	0x00, //         
 	0x10, //    #    
 	0x54, //  # # #  
@@ -188,7 +188,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @140 '+' (8 pixels wide)
+	// @154 '+' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -204,7 +204,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @154 ',' (8 pixels wide)
+	// @168 ',' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -220,7 +220,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x20, //   #     
 	0x00, //         
 
-	// @168 '-' (8 pixels wide)
+	// @182 '-' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -236,7 +236,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @182 '.' (8 pixels wide)
+	// @196 '.' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -252,7 +252,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @196 '/' (8 pixels wide)
+	// @210 '/' (8 pixels wide)
 	0x02, //       # 
 	0x04, //      #  
 	0x04, //      #  
@@ -268,7 +268,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x20, //   #     
 	0x40, //  #      
 
-	// @210 '0' (8 pixels wide)
+	// @224 '0' (8 pixels wide)
 	0x00, //         
 	0x18, //    ##   
 	0x24, //   #  #  
@@ -284,7 +284,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @224 '1' (8 pixels wide)
+	// @238 '1' (8 pixels wide)
 	0x00, //         
 	0x08, //     #   
 	0x18, //    ##   
@@ -300,7 +300,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @238 '2' (8 pixels wide)
+	// @252 '2' (8 pixels wide)
 	0x00, //         
 	0x3C, //   ####  
 	0x42, //  #    # 
@@ -316,7 +316,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @252 '3' (8 pixels wide)
+	// @266 '3' (8 pixels wide)
 	0x00, //         
 	0x7C, //  #####  
 	0x02, //       # 
@@ -332,7 +332,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @266 '4' (8 pixels wide)
+	// @280 '4' (8 pixels wide)
 	0x00, //         
 	0x04, //      #  
 	0x0C, //     ##  
@@ -348,7 +348,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @280 '5' (8 pixels wide)
+	// @294 '5' (8 pixels wide)
 	0x00, //         
 	0x3E, //   ##### 
 	0x20, //   #     
@@ -364,7 +364,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @294 '6' (8 pixels wide)
+	// @308 '6' (8 pixels wide)
 	0x00, //         
 	0x0C, //     ##  
 	0x10, //    #    
@@ -380,7 +380,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @308 '7' (8 pixels wide)
+	// @322 '7' (8 pixels wide)
 	0x00, //         
 	0x7E, //  ###### 
 	0x02, //       # 
@@ -396,7 +396,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @322 '8' (8 pixels wide)
+	// @336 '8' (8 pixels wide)
 	0x00, //         
 	0x3C, //   ####  
 	0x42, //  #    # 
@@ -412,7 +412,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @336 '9' (8 pixels wide)
+	// @350 '9' (8 pixels wide)
 	0x00, //         
 	0x38, //   ###   
 	0x44, //  #   #  
@@ -428,7 +428,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @350 ':' (8 pixels wide)
+	// @364 ':' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -444,7 +444,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @364 ';' (8 pixels wide)
+	// @378 ';' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -460,7 +460,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x20, //   #     
 	0x00, //         
 
-	// @378 '<' (8 pixels wide)
+	// @392 '<' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -476,7 +476,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @392 '=' (8 pixels wide)
+	// @406 '=' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -492,7 +492,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @406 '>' (8 pixels wide)
+	// @420 '>' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -508,7 +508,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @420 '?' (8 pixels wide)
+	// @434 '?' (8 pixels wide)
 	0x00, //         
 	0x38, //   ###   
 	0x04, //      #  
@@ -524,7 +524,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @434 '@' (8 pixels wide)
+	// @448 '@' (8 pixels wide)
 	0x00, //         
 	0x1C, //    ###  
 	0x22, //   #   # 
@@ -540,7 +540,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x1C, //    ###  
 	0x00, //         
 
-	// @448 'A' (8 pixels wide)
+	// @462 'A' (8 pixels wide)
 	0x00, //         
 	0x10, //    #    
 	0x28, //   # #   
@@ -556,7 +556,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @462 'B' (8 pixels wide)
+	// @476 'B' (8 pixels wide)
 	0x00, //         
 	0x7C, //  #####  
 	0x42, //  #    # 
@@ -572,7 +572,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @476 'C' (8 pixels wide)
+	// @490 'C' (8 pixels wide)
 	0x00, //         
 	0x1C, //    ###  
 	0x22, //   #   # 
@@ -588,7 +588,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @490 'D' (8 pixels wide)
+	// @504 'D' (8 pixels wide)
 	0x00, //         
 	0x78, //  ####   
 	0x44, //  #   #  
@@ -604,7 +604,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @504 'E' (8 pixels wide)
+	// @518 'E' (8 pixels wide)
 	0x00, //         
 	0x7E, //  ###### 
 	0x40, //  #      
@@ -620,7 +620,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @518 'F' (8 pixels wide)
+	// @532 'F' (8 pixels wide)
 	0x00, //         
 	0x7E, //  ###### 
 	0x40, //  #      
@@ -636,7 +636,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @532 'G' (8 pixels wide)
+	// @546 'G' (8 pixels wide)
 	0x00, //         
 	0x1C, //    ###  
 	0x22, //   #   # 
@@ -652,7 +652,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @546 'H' (8 pixels wide)
+	// @560 'H' (8 pixels wide)
 	0x00, //         
 	0x42, //  #    # 
 	0x42, //  #    # 
@@ -668,7 +668,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @560 'I' (8 pixels wide)
+	// @574 'I' (8 pixels wide)
 	0x00, //         
 	0x7C, //  #####  
 	0x10, //    #    
@@ -684,7 +684,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @574 'J' (8 pixels wide)
+	// @588 'J' (8 pixels wide)
 	0x00, //         
 	0x3E, //   ##### 
 	0x02, //       # 
@@ -700,7 +700,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @588 'K' (8 pixels wide)
+	// @602 'K' (8 pixels wide)
 	0x00, //         
 	0x42, //  #    # 
 	0x44, //  #   #  
@@ -716,7 +716,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @602 'L' (8 pixels wide)
+	// @616 'L' (8 pixels wide)
 	0x00, //         
 	0x40, //  #      
 	0x40, //  #      
@@ -732,7 +732,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @616 'M' (8 pixels wide)
+	// @630 'M' (8 pixels wide)
 	0x00, //         
 	0x24, //   #  #  
 	0x24, //   #  #  
@@ -748,7 +748,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @630 'N' (8 pixels wide)
+	// @644 'N' (8 pixels wide)
 	0x00, //         
 	0x42, //  #    # 
 	0x62, //  ##   # 
@@ -764,7 +764,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @644 'O' (8 pixels wide)
+	// @658 'O' (8 pixels wide)
 	0x00, //         
 	0x18, //    ##   
 	0x24, //   #  #  
@@ -780,7 +780,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @658 'P' (8 pixels wide)
+	// @672 'P' (8 pixels wide)
 	0x00, //         
 	0x7C, //  #####  
 	0x42, //  #    # 
@@ -796,7 +796,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @672 'Q' (8 pixels wide)
+	// @686 'Q' (8 pixels wide)
 	0x00, //         
 	0x18, //    ##   
 	0x24, //   #  #  
@@ -812,7 +812,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x06, //      ## 
 	0x00, //         
 
-	// @686 'R' (8 pixels wide)
+	// @700 'R' (8 pixels wide)
 	0x00, //         
 	0x7C, //  #####  
 	0x42, //  #    # 
@@ -828,7 +828,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @700 'S' (8 pixels wide)
+	// @714 'S' (8 pixels wide)
 	0x00, //         
 	0x3C, //   ####  
 	0x42, //  #    # 
@@ -844,7 +844,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @714 'T' (8 pixels wide)
+	// @728 'T' (8 pixels wide)
 	0x00, //         
 	0xFE, // ####### 
 	0x10, //    #    
@@ -860,7 +860,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @728 'U' (8 pixels wide)
+	// @742 'U' (8 pixels wide)
 	0x00, //         
 	0x42, //  #    # 
 	0x42, //  #    # 
@@ -876,7 +876,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @742 'V' (8 pixels wide)
+	// @756 'V' (8 pixels wide)
 	0x00, //         
 	0x82, // #     # 
 	0x82, // #     # 
@@ -892,7 +892,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @756 'W' (8 pixels wide)
+	// @770 'W' (8 pixels wide)
 	0x00, //         
 	0x42, //  #    # 
 	0x42, //  #    # 
@@ -908,7 +908,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @770 'X' (8 pixels wide)
+	// @784 'X' (8 pixels wide)
 	0x00, //         
 	0x82, // #     # 
 	0x44, //  #   #  
@@ -924,7 +924,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @784 'Y' (8 pixels wide)
+	// @798 'Y' (8 pixels wide)
 	0x00, //         
 	0x82, // #     # 
 	0x44, //  #   #  
@@ -940,7 +940,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @798 'Z' (8 pixels wide)
+	// @812 'Z' (8 pixels wide)
 	0x00, //         
 	0x7E, //  ###### 
 	0x02, //       # 
@@ -956,7 +956,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @812 '[' (8 pixels wide)
+	// @826 '[' (8 pixels wide)
 	0x00, //         
 	0x3C, //   ####  
 	0x20, //   #     
@@ -972,7 +972,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x20, //   #     
 	0x3C, //   ####  
 
-	// @826 '\' (8 pixels wide)
+	// @840 '\' (8 pixels wide)
 	0x40, //  #      
 	0x20, //   #     
 	0x20, //   #     
@@ -988,7 +988,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x04, //      #  
 	0x02, //       # 
 
-	// @840 ']' (8 pixels wide)
+	// @854 ']' (8 pixels wide)
 	0x00, //         
 	0x3C, //   ####  
 	0x04, //      #  
@@ -1004,7 +1004,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x04, //      #  
 	0x3C, //   ####  
 
-	// @854 '^' (8 pixels wide)
+	// @868 '^' (8 pixels wide)
 	0x00, //         
 	0x08, //     #   
 	0x14, //    # #  
@@ -1020,7 +1020,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @868 '_' (8 pixels wide)
+	// @882 '_' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1036,7 +1036,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0xFF, // ########
 
-	// @882 '`' (8 pixels wide)
+	// @896 '`' (8 pixels wide)
 	0x20, //   #     
 	0x10, //    #    
 	0x08, //     #   
@@ -1052,7 +1052,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @896 'a' (8 pixels wide)
+	// @910 'a' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1068,7 +1068,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @910 'b' (8 pixels wide)
+	// @924 'b' (8 pixels wide)
 	0x40, //  #      
 	0x40, //  #      
 	0x40, //  #      
@@ -1084,7 +1084,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @924 'c' (8 pixels wide)
+	// @938 'c' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1100,7 +1100,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @938 'd' (8 pixels wide)
+	// @952 'd' (8 pixels wide)
 	0x02, //       # 
 	0x02, //       # 
 	0x02, //       # 
@@ -1116,7 +1116,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @952 'e' (8 pixels wide)
+	// @966 'e' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1132,7 +1132,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @966 'f' (8 pixels wide)
+	// @980 'f' (8 pixels wide)
 	0x0F, //     ####
 	0x10, //    #    
 	0x10, //    #    
@@ -1148,7 +1148,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @980 'g' (8 pixels wide)
+	// @994 'g' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1164,7 +1164,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x02, //       # 
 	0x7C, //  #####  
 
-	// @994 'h' (8 pixels wide)
+	// @1008 'h' (8 pixels wide)
 	0x40, //  #      
 	0x40, //  #      
 	0x40, //  #      
@@ -1180,7 +1180,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1008 'i' (8 pixels wide)
+	// @1022 'i' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x10, //    #    
@@ -1196,7 +1196,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1022 'j' (8 pixels wide)
+	// @1036 'j' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x08, //     #   
@@ -1212,7 +1212,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x04, //      #  
 	0x78, //  ####   
 
-	// @1036 'k' (8 pixels wide)
+	// @1050 'k' (8 pixels wide)
 	0x40, //  #      
 	0x40, //  #      
 	0x40, //  #      
@@ -1228,7 +1228,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1050 'l' (8 pixels wide)
+	// @1064 'l' (8 pixels wide)
 	0x70, //  ###    
 	0x10, //    #    
 	0x10, //    #    
@@ -1244,7 +1244,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1064 'm' (8 pixels wide)
+	// @1078 'm' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1260,7 +1260,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1078 'n' (8 pixels wide)
+	// @1092 'n' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1276,7 +1276,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1092 'o' (8 pixels wide)
+	// @1106 'o' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1292,7 +1292,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1106 'p' (8 pixels wide)
+	// @1120 'p' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1308,7 +1308,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x40, //  #      
 	0x40, //  #      
 
-	// @1120 'q' (8 pixels wide)
+	// @1134 'q' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1324,7 +1324,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x02, //       # 
 	0x02, //       # 
 
-	// @1134 'r' (8 pixels wide)
+	// @1148 'r' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1340,7 +1340,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1148 's' (8 pixels wide)
+	// @1162 's' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1356,7 +1356,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1162 't' (8 pixels wide)
+	// @1176 't' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x10, //    #    
@@ -1372,7 +1372,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1176 'u' (8 pixels wide)
+	// @1190 'u' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1388,7 +1388,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1190 'v' (8 pixels wide)
+	// @1204 'v' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1404,7 +1404,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1204 'w' (8 pixels wide)
+	// @1218 'w' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1420,7 +1420,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1218 'x' (8 pixels wide)
+	// @1232 'x' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1436,7 +1436,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1232 'y' (8 pixels wide)
+	// @1246 'y' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1452,7 +1452,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x10, //    #    
 	0x60, //  ##     
 
-	// @1246 'z' (8 pixels wide)
+	// @1260 'z' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1468,7 +1468,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x00, //         
 	0x00, //         
 
-	// @1260 '{' (8 pixels wide)
+	// @1274 '{' (8 pixels wide)
 	0x0E, //     ### 
 	0x10, //    #    
 	0x10, //    #    
@@ -1484,7 +1484,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x10, //    #    
 	0x0E, //     ### 
 
-	// @1274 '|' (8 pixels wide)
+	// @1288 '|' (8 pixels wide)
 	0x10, //    #    
 	0x10, //    #    
 	0x10, //    #    
@@ -1500,7 +1500,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x10, //    #    
 	0x10, //    #    
 
-	// @1288 '}' (8 pixels wide)
+	// @1302 '}' (8 pixels wide)
 	0x70, //  ###    
 	0x08, //     #   
 	0x08, //     #   
@@ -1516,7 +1516,7 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x08, //     #   
 	0x70, //  ###    
 
-	// @1302 '~' (8 pixels wide)
+	// @1316 '~' (8 pixels wide)
 	0x00, //         
 	0x00, //         
 	0x00, //         
@@ -1537,107 +1537,107 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 // { [Char width in bits], [Char height in bits], [Offset into ubuntuMono_12ptCharBitmaps in bytes] }
 const FONT_CHAR_INFO ubuntuMono_12ptDescriptors[] = 
 {
-	{8, 14, 0}, 		// !   --actual space--move everything down 1 because space added
-	{8, 14, 14}, 		// " 
-	{8, 14, 28}, 		// # 
-	{8, 14, 42}, 		// $ 
-	{8, 14, 56}, 		// % 
-	{8, 14, 70}, 		// & 
-	{8, 14, 84}, 		// ' 
-	{8, 14, 98}, 		// ( 
-	{8, 14, 112}, 		// ) 
-	{8, 14, 126}, 		// * 
-	{8, 14, 140}, 		// + 
-	{8, 14, 154}, 		// , 
-	{8, 14, 168}, 		// - 
-	{8, 14, 182}, 		// . 
-	{8, 14, 196}, 		// / 
-	{8, 14, 210}, 		// 0 
-	{8, 14, 224}, 		// 1 
-	{8, 14, 238}, 		// 2 
-	{8, 14, 252}, 		// 3 
-	{8, 14, 266}, 		// 4 
-	{8, 14, 280}, 		// 5 
-	{8, 14, 294}, 		// 6 
-	{8, 14, 308}, 		// 7 
-	{8, 14, 322}, 		// 8 
-	{8, 14, 336}, 		// 9 
-	{8, 14, 350}, 		// : 
-	{8, 14, 364}, 		// ; 
-	{8, 14, 378}, 		// < 
-	{8, 14, 392}, 		// = 
-	{8, 14, 406}, 		// > 
-	{8, 14, 420}, 		// ? 
-	{8, 14, 434}, 		// @ 
-	{8, 14, 448}, 		// A 
-	{8, 14, 462}, 		// B 
-	{8, 14, 476}, 		// C 
-	{8, 14, 490}, 		// D 
-	{8, 14, 504}, 		// E 
-	{8, 14, 518}, 		// F 
-	{8, 14, 532}, 		// G 
-	{8, 14, 546}, 		// H 
-	{8, 14, 560}, 		// I 
-	{8, 14, 574}, 		// J 
-	{8, 14, 588}, 		// K 
-	{8, 14, 602}, 		// L 
-	{8, 14, 616}, 		// M 
-	{8, 14, 630}, 		// N 
-	{8, 14, 644}, 		// O 
-	{8, 14, 658}, 		// P 
-	{8, 14, 672}, 		// Q 
-	{8, 14, 686}, 		// R 
-	{8, 14, 700}, 		// S 
-	{8, 14, 714}, 		// T 
-	{8, 14, 728}, 		// U 
-	{8, 14, 742}, 		// V 
-	{8, 14, 756}, 		// W 
-	{8, 14, 770}, 		// X 
-	{8, 14, 784}, 		// Y 
-	{8, 14, 798}, 		// Z 
-	{8, 14, 812}, 		// [ 
-	{8, 14, 826}, 		// \ 
-	{8, 14, 840}, 		// ] 
-	{8, 14, 854}, 		// ^ 
-	{8, 14, 868}, 		// _ 
-	{8, 14, 882}, 		// ` 
-	{8, 14, 896}, 		// a 
-	{8, 14, 910}, 		// b 
-	{8, 14, 924}, 		// c 
-	{8, 14, 938}, 		// d 
-	{8, 14, 952}, 		// e 
-	{8, 14, 966}, 		// f 
-	{8, 14, 980}, 		// g 
-	{8, 14, 994}, 		// h 
-	{8, 14, 1008}, 		// i 
-	{8, 14, 1022}, 		// j 
-	{8, 14, 1036}, 		// k 
-	{8, 14, 1050}, 		// l 
-	{8, 14, 1064}, 		// m 
-	{8, 14, 1078}, 		// n 
-	{8, 14, 1092}, 		// o 
-	{8, 14, 1106}, 		// p 
-	{8, 14, 1120}, 		// q 
-	{8, 14, 1134}, 		// r 
-	{8, 14, 1148}, 		// s 
-	{8, 14, 1162}, 		// t 
-	{8, 14, 1176}, 		// u 
-	{8, 14, 1190}, 		// v 
-	{8, 14, 1204}, 		// w 
-	{8, 14, 1218}, 		// x 
-	{8, 14, 1232}, 		// y 
-	{8, 14, 1246}, 		// z 
-	{8, 14, 1260}, 		// { 
-	{8, 14, 1274}, 		// | 
-	{8, 14, 1288}, 		// } 
-	{8, 14, 1302}, 		// ~ 
-	{8, 14, 1316}, 		
+	{8, 14, 0}, 		//   
+	{8, 14, 14}, 		// ! 
+	{8, 14, 28}, 		// " 
+	{8, 14, 42}, 		// # 
+	{8, 14, 56}, 		// $ 
+	{8, 14, 70}, 		// % 
+	{8, 14, 84}, 		// & 
+	{8, 14, 98}, 		// ' 
+	{8, 14, 112}, 		// ( 
+	{8, 14, 126}, 		// ) 
+	{8, 14, 140}, 		// * 
+	{8, 14, 154}, 		// + 
+	{8, 14, 168}, 		// , 
+	{8, 14, 182}, 		// - 
+	{8, 14, 196}, 		// . 
+	{8, 14, 210}, 		// / 
+	{8, 14, 224}, 		// 0 
+	{8, 14, 238}, 		// 1 
+	{8, 14, 252}, 		// 2 
+	{8, 14, 266}, 		// 3 
+	{8, 14, 280}, 		// 4 
+	{8, 14, 294}, 		// 5 
+	{8, 14, 308}, 		// 6 
+	{8, 14, 322}, 		// 7 
+	{8, 14, 336}, 		// 8 
+	{8, 14, 350}, 		// 9 
+	{8, 14, 364}, 		// : 
+	{8, 14, 378}, 		// ; 
+	{8, 14, 392}, 		// < 
+	{8, 14, 406}, 		// = 
+	{8, 14, 420}, 		// > 
+	{8, 14, 434}, 		// ? 
+	{8, 14, 448}, 		// @ 
+	{8, 14, 462}, 		// A 
+	{8, 14, 476}, 		// B 
+	{8, 14, 490}, 		// C 
+	{8, 14, 504}, 		// D 
+	{8, 14, 518}, 		// E 
+	{8, 14, 532}, 		// F 
+	{8, 14, 546}, 		// G 
+	{8, 14, 560}, 		// H 
+	{8, 14, 574}, 		// I 
+	{8, 14, 588}, 		// J 
+	{8, 14, 602}, 		// K 
+	{8, 14, 616}, 		// L 
+	{8, 14, 630}, 		// M 
+	{8, 14, 644}, 		// N 
+	{8, 14, 658}, 		// O 
+	{8, 14, 672}, 		// P 
+	{8, 14, 686}, 		// Q 
+	{8, 14, 700}, 		// R 
+	{8, 14, 714}, 		// S 
+	{8, 14, 728}, 		// T 
+	{8, 14, 742}, 		// U 
+	{8, 14, 756}, 		// V 
+	{8, 14, 770}, 		// W 
+	{8, 14, 784}, 		// X 
+	{8, 14, 798}, 		// Y 
+	{8, 14, 812}, 		// Z 
+	{8, 14, 826}, 		// [ 
+	{8, 14, 840}, 		// \ 
+	{8, 14, 854}, 		// ] 
+	{8, 14, 868}, 		// ^ 
+	{8, 14, 882}, 		// _ 
+	{8, 14, 896}, 		// ` 
+	{8, 14, 910}, 		// a 
+	{8, 14, 924}, 		// b 
+	{8, 14, 938}, 		// c 
+	{8, 14, 952}, 		// d 
+	{8, 14, 966}, 		// e 
+	{8, 14, 980}, 		// f 
+	{8, 14, 994}, 		// g 
+	{8, 14, 1008}, 		// h 
+	{8, 14, 1022}, 		// i 
+	{8, 14, 1036}, 		// j 
+	{8, 14, 1050}, 		// k 
+	{8, 14, 1064}, 		// l 
+	{8, 14, 1078}, 		// m 
+	{8, 14, 1092}, 		// n 
+	{8, 14, 1106}, 		// o 
+	{8, 14, 1120}, 		// p 
+	{8, 14, 1134}, 		// q 
+	{8, 14, 1148}, 		// r 
+	{8, 14, 1162}, 		// s 
+	{8, 14, 1176}, 		// t 
+	{8, 14, 1190}, 		// u 
+	{8, 14, 1204}, 		// v 
+	{8, 14, 1218}, 		// w 
+	{8, 14, 1232}, 		// x 
+	{8, 14, 1246}, 		// y 
+	{8, 14, 1260}, 		// z 
+	{8, 14, 1274}, 		// { 
+	{8, 14, 1288}, 		// | 
+	{8, 14, 1302}, 		// } 
+	{8, 14, 1316}, 		// ~ 
 };
 
 // Font information for Ubuntu Mono 12pt
 const FONT_INFO ubuntuMono_12ptFontInfo =
 {
-	14, //  Character height
+	2, //  Character height
 	' ', //  Start character
 	'~', //  End character
 	ubuntuMono_12ptDescriptors, //  Character descriptor array
