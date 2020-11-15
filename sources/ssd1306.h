@@ -22,6 +22,8 @@ extern "C" {
 #include <unistd.h>
 #include "font.h"
 #include "ubuntuMono_8pt.h"
+#include "ubuntuMono_10pt.h"
+#include "ubuntuMono_12pt.h"
 #include "ubuntuMono_16pt.h"
 #include "ubuntuMono_24pt.h"
 #include "ubuntuMono_48pt.h"
