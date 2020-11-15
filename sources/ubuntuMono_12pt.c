@@ -988,6 +988,22 @@ const uint8_t ubuntuMono_12ptBitmaps[] =
 	0x04, //      #  
 	0x02, //       # 
 
+	// dummy entry since next entry seems to be missing!!!!
+	0x00, //         
+	0x00, //         
+	0x00, //         
+	0x00, //         
+	0x00, //         
+	0x00, //         
+	0x00, //         
+	0x00, //         
+	0x00, //         
+	0x00, //         
+	0x00, //         
+	0x00, //         
+	0x00, //         
+	0x00, //         
+
 	// @854 ']' (8 pixels wide)
 	0x00, //         
 	0x3C, //   ####  
