@@ -800,6 +800,19 @@ const uint8_t ubuntuMono_10ptBitmaps[] =
 	0x08, //     #  
 	0x04, //      # 
 
+  // dummy entry
+	0x00, //        
+	0x00, //        
+	0x00, //        
+	0x00, //        
+	0x00, //        
+	0x00, //        
+	0x00, //        
+	0x00, //        
+	0x00, //        
+	0x00, //        
+	0x00, //        
+
 	// @671 ']' (7 pixels wide)
 	0x00, //        
 	0x38, //   ###  
@@ -1342,6 +1355,7 @@ const FONT_CHAR_INFO ubuntuMono_10ptDescriptors[] =
 	{7, 11, 1012}, 		// | 
 	{7, 11, 1023}, 		// } 
 	{7, 11, 1034}, 		// ~ 
+	{7, 11, 1045}, 		// ~ additional entry to fix bug
 };
 
 // Font information for Ubuntu Mono 10pt
